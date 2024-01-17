@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2c3e50;
+    font-family: 'Muli', sans-serif;
+    color: #ecf0f1;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #0f4c75, #3282b8); /* Gradient background */
+    -webkit-background-clip: text;/* Clip text to the background*/
+    color: transparent;
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%; /* Set width to 100% to ensure responsiveness */
+    height: 250px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    transition: transform 0.3s ease;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/* Add a new class to handle the transition on click */
+.project-image.enlarged {
+    transform: scale(1.8);
+}
+
+
+
